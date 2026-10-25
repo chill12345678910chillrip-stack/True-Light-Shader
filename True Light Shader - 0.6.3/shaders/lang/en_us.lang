@@ -1,0 +1,63 @@
+screen.LIGHTING = Lighting
+screen.SKY = Sky and Atmosphere
+screen.WATER = Water and Reflections
+screen.POST = Post Processing
+
+option.QUALITY = Graphics Quality
+option.QUALITY.comment = Higher looks better but costs more performance. Low is close to vanilla (no shadows, no reflections, no water shading).
+value.QUALITY.0 = Low
+value.QUALITY.1 = Medium
+value.QUALITY.2 = High
+
+option.SHADOW_STRENGTH = Shadow Strength
+option.SHADOW_STRENGTH.comment = How dark real-time shadows are. 0 disables shadow darkening entirely.
+option.COLORED_SHADOWS = Colored Shadows
+option.COLORED_SHADOWS.comment = Lets light passing through leaves and colored glass tint the shadow it casts.
+option.SUN_INTENSITY = Sun Intensity
+option.SUN_INTENSITY.comment = Strength of direct sunlight. Higher = more contrast between light and shadow.
+option.AMBIENT_LIGHT = Minimum Brightness
+option.AMBIENT_LIGHT.comment = How dark fully unlit areas with no sky and no torches can get. Lower is darker/more realistic caves.
+option.HAND_LIGHT = Held Light
+option.HAND_LIGHT.comment = Torches and other light sources in your hand light up the nearby surfaces.
+option.ORE_GLOW = Glowing Ores
+option.ORE_GLOW.comment = Makes ore blocks emit a colored glow so they stand out in caves.
+option.LIGHT_SOURCE_GLOW = Glowing Light Sources
+option.LIGHT_SOURCE_GLOW.comment = Makes torches, lanterns, glowstone, portals and similar blocks glow in their own matching color.
+option.SHINY_BLOCKS = Shiny Blocks
+option.SHINY_BLOCKS.comment = Metal, gem, polished and ice blocks reflect the sky and the sun (needs Medium or High).
+option.WET_SURFACES = Wet Surfaces
+option.WET_SURFACES.comment = Ground gets darker and forms reflective puddles while it rains.
+option.WIND_STRENGTH = Wind Strength
+option.WIND_STRENGTH.comment = How much grass, leaves and vines sway.
+
+option.CLOUD_COVERAGE = Cloud Coverage
+option.CLOUD_COVERAGE.comment = Amount of sky covered by clouds.
+option.FOG_DENSITY = Fog Density
+option.FOG_DENSITY.comment = Strength of the distance haze that fades terrain into the sky.
+option.GOD_RAYS = Light Shafts
+option.GOD_RAYS.comment = Sun and moon rays shining past trees and mountains.
+
+option.REFLECTIONS = Screen-Space Reflections
+option.REFLECTIONS.comment = Water and shiny blocks reflect terrain, trees and buildings (needs Medium or High).
+option.WATER_WAVE_STRENGTH = Water Wave Height
+option.WATER_WAVE_STRENGTH.comment = How strong the waves on the water surface are.
+option.WATER_ABSORPTION = Water Murkiness
+option.WATER_ABSORPTION.comment = How quickly water swallows light. Higher = deeper, darker, less see-through water.
+option.WATER_CAUSTICS = Water Caustics
+option.WATER_CAUSTICS.comment = Moving light patterns on the bottom of sunlit shallow water.
+option.RAIN_RIPPLES = Rain Ripples
+option.RAIN_RIPPLES.comment = Ring ripples on water surfaces while it rains.
+
+option.EXPOSURE = Exposure
+option.EXPOSURE.comment = Overall image brightness.
+option.TONEMAP = Tone Mapping
+option.TONEMAP.comment = ACES = punchy and cinematic, Filmic = softer contrast, Soft = gentle and natural.
+value.TONEMAP.0 = ACES
+value.TONEMAP.1 = Filmic
+value.TONEMAP.2 = Soft
+option.SATURATION = Color Saturation
+option.SATURATION.comment = Overall color intensity of the final image.
+option.BLOOM_STRENGTH = Bloom Strength
+option.BLOOM_STRENGTH.comment = How strongly very bright areas such as the sun, lava, torches and sun glints glow.
+option.VIGNETTE_STRENGTH = Vignette
+option.VIGNETTE_STRENGTH.comment = Darkens the edges of the screen.
